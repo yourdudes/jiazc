@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="JIAZC">
+  <defs>
+    <linearGradient id="favMark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f4fd6"/>
+      <stop offset="1" stop-color="#0a2a6b"/>
+    </linearGradient>
+    <linearGradient id="favArrow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffb02e"/>
+      <stop offset="1" stop-color="#f5800a"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#favMark)"/>
+  <circle cx="32" cy="33" r="18" fill="none" stroke="#ffffff" stroke-opacity="0.32" stroke-width="2.4"/>
+  <path d="M32 15 C20 23 20 43 32 51 C44 43 44 23 32 15 Z" fill="none" stroke="#ffffff" stroke-opacity="0.32" stroke-width="2.4"/>
+  <line x1="14" y1="33" x2="50" y2="33" stroke="#ffffff" stroke-opacity="0.32" stroke-width="2.4"/>
+  <path d="M22 39 L38 23 M38 23 L30 23 M38 23 L38 31" fill="none" stroke="url(#favArrow)" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" role="img" aria-label="JIAZC — Global Import and Export Trade" width="220" height="56">
+  <defs>
+    <linearGradient id="jiazcMark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f4fd6"/>
+      <stop offset="1" stop-color="#0a2a6b"/>
+    </linearGradient>
+    <linearGradient id="jiazcArrow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffb02e"/>
+      <stop offset="1" stop-color="#f5800a"/>
+    </linearGradient>
+  </defs>
+  <!-- Monogram: rounded square with a globe + outbound trade arrow -->
+  <g>
+    <rect x="2" y="4" width="48" height="48" rx="13" fill="url(#jiazcMark)"/>
+    <!-- globe meridians -->
+    <circle cx="26" cy="28" r="15" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2"/>
+    <path d="M26 13 C16 20 16 36 26 43 C36 36 36 20 26 13 Z" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2"/>
+    <line x1="11" y1="28" x2="41" y2="28" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2"/>
+    <!-- trade arrow / J -->
+    <path d="M18 32 L30 20 M30 20 L24 20 M30 20 L30 26" fill="none" stroke="url(#jiazcArrow)" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="62" y="29" font-family="'Plus Jakarta Sans', 'Segoe UI', sans-serif" font-size="23" font-weight="800" letter-spacing="1.5" fill="#0a2a6b">JIAZC</text>
+  <text x="63" y="45" font-family="'Plus Jakarta Sans', 'Segoe UI', sans-serif" font-size="8.2" font-weight="600" letter-spacing="2.4" fill="#f5800a">GLOBAL TRADE</text>
+</svg>
